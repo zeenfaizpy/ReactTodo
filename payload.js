@@ -1,1 +1,1 @@
-module.exports = [{'name': 'Faizal'}, {'name': 'Arief'}]
+module.exports = {'items': [{'name': 'Faizal'}, {'name': 'Arief'}]}
