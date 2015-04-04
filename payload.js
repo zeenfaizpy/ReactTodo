@@ -1,0 +1,1 @@
+module.exports = [{'name': 'Faizal'}, {'name': 'Arief'}]
