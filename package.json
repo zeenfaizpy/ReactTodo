@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/zeenfaizpy/ReactTodo/issues"
   },
-  "homepage": "https://github.com/zeenfaizpy/ReactTodo"
+  "homepage": "https://github.com/zeenfaizpy/ReactTodo",
+  "dependencies": {
+    "jsx-loader": "^0.13.1",
+    "react": "^0.13.1",
+    "webpack": "^1.7.3"
+  }
 }
