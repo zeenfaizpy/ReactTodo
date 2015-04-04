@@ -2,7 +2,7 @@
   "name": "ReactTodo",
   "version": "1.0.0",
   "description": "Application built using ReactJs",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
