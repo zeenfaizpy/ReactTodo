@@ -1,4 +1,4 @@
 var React = require('react')
-var Hello = require('./hello')
+var Todo = require('./todo')
 
-React.render(<Hello />, document.getElementById('content'))
+React.render(<Todo />, document.getElementById('content'))
