@@ -1,0 +1,19 @@
+{
+  "name": "ReactTodo",
+  "version": "1.0.0",
+  "description": "Application built using ReactJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeenfaizpy/ReactTodo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeenfaizpy/ReactTodo/issues"
+  },
+  "homepage": "https://github.com/zeenfaizpy/ReactTodo"
+}
