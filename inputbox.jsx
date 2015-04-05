@@ -1,17 +1,15 @@
 var React = require('react')
 
 var Inputbox = React.createClass({
-    // getInitialState: function() {
-    //   return {userInput: ''};
-    // },
-    // clearAndFocusInput: function() {
-    //   this.setState({userInput: ''});
-    // },
+    clearAndFocusInput: function() {
+      this.refs.myTextInput.getDOMNode().focus()
+    },
     handleClick: function() {
         var value = this.refs.myTextInput.getDOMNode().value
         var obj = { 'name': value}
         this.props.onUpdate(obj)
         this.refs.myTextInput.getDOMNode().value = ''
+        this.clearAndFocusInput()
     },
     render: function() {
         return (
